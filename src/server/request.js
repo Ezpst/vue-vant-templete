@@ -3,6 +3,7 @@
  */
 import router from '../router'
 import axios from 'axios'
+import store from '../store/index'
 import { Dialog } from 'vant'
 
 /*根据.env文件中的VUE_APP_FLAG判断是生产环境还是测试环境*/
